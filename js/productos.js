@@ -186,16 +186,16 @@ btn_todoCard.addEventListener('click', () => {
 			<section class="portfolio_item__card--content__text">
 				<p>
 					<a href="llave-de-control-de-torque-electrica.html"
-						>Llave de controld de torque <b>el&eacute;ctrica</b></a
+						>Llave de control de torque <b>el&eacute;ctrica</b></a
 					><br />
 					<a href="llave-de-control-de-torque-a-bateria.html"
-						>Llave de controld de torque a <b>bater&iacute;a</b></a
+						>Llave de control de torque a <b>bater&iacute;a</b></a
 					><br />
 					<a href="llave-de-control-de-torque-neumatica.html"
-						>Llave de controld de torque <b>neum&aacute;tica</b></a
+						>Llave de control de torque <b>neum&aacute;tica</b></a
 					><br />
 					<a href="llave-de-control-de-torque-hidraulica.html"
-						>Llave de controld de torque <b>hidr&aacute;ulica</b></a
+						>Llave de control de torque <b>hidr&aacute;ulica</b></a
 					><br />
 				</p>
 				<a href="llave-de-control.html" class="button_all">Ver Más</a>
@@ -309,16 +309,16 @@ btn_llaveCard.addEventListener('click', () => {
 			<section class="portfolio_item__card--content__text">
 				<p>
 					<a href="llave-de-control-de-torque-electrica.html"
-						>Llave de controld de torque <b>el&eacute;ctrica</b></a
+						>Llave de control de torque <b>el&eacute;ctrica</b></a
 					><br />
 					<a href="llave-de-control-de-torque-a-bateria.html"
-						>Llave de controld de torque a <b>bater&iacute;a</b></a
+						>Llave de control de torque a <b>bater&iacute;a</b></a
 					><br />
 					<a href="llave-de-control-de-torque-neumatica.html"
-						>Llave de controld de torque <b>neum&aacute;tica</b></a
+						>Llave de control de torque <b>neum&aacute;tica</b></a
 					><br />
 					<a href="llave-de-control-de-torque-hidraulica.html"
-						>Llave de controld de torque <b>hidr&aacute;ulica</b></a
+						>Llave de control de torque <b>hidr&aacute;ulica</b></a
 					><br />
 				</p>
 				<a href="llave-de-control.html" class="button_all">Ver Más</a>

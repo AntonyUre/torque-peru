@@ -827,6 +827,7 @@ h1 {
 	padding-bottom: 70px;
 }
 .about_us_area .about_row p {
+	text-align: justify;
 	font: 400 14px/26px 'Roboto', sans-serif;
 	color: #555555;
 	padding-top: 28px;
