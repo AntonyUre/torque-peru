@@ -142,7 +142,7 @@ btn_todoCard.addEventListener('click', () => {
 					</li>
 					<li>
 						<a href="torquimetros-de-reloj.html"
-							>Torquimetro Destornillador</a
+							>Torquimetro atornillador</a
 						>
 					</li>
 				</ul>
@@ -245,7 +245,7 @@ btn_torquimetroCard.addEventListener('click', () => {
 					</li>
 					<li>
 						<a href="torquimetros-de-reloj.html"
-							>Torquimetro Destornillador</a
+							>Torquimetro atornillador</a
 						>
 					</li>
 				</ul>

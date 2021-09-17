@@ -48,18 +48,6 @@
 		"img": "https://4g-globalinversiones.com/wp-content/uploads/2020/05/13-100-Torqu%C3%ADmetro.jpg"
 	},
 	{
-		"id": 5,
-		"nombre": "Torquimetros  de reloj Encastre 1/2",
-		"marca": "WRIGHT",
-		"modelo": "Modelo 4476",
-		"max":"1600",
-		"capacidad": "700-1600 Lbs-pulg/84.4-175.2Nm",
-		"longitud": "18",
-		"peso": "3 Lbs",
-		"tipo":"Ratchet",
-		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDqx_PUz6G0yjalZqVMfH9hFjP_nFchfWvYAHMJsARU7krjOB_pLmZVtCFv5rVDYCiBI&usqp=CAU"
-	},
-	{
 		"id": 6,
 		"nombre": "Torquimetros  de reloj Encastre 1/2",
 		"marca": "WRIGHT",
@@ -107,19 +95,6 @@
 		"tipo": "Ratchet",
 		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZzf48jF8dotVUqArnBr2HlpYbsMdw8Byq3Nf-4duM8Jdns4BuumI3808luDtZNJKdOk&usqp=CAU"
 	},
-	{
-		"id": 10,
-		"nombre": "Torquimetros  de reloj Encastre 1",
-		"marca": "WRIGHT",
-		"modelo": "Modelo 4476",
-		"max":"2000",
-		"capacidad": "300-2000 Lbs-pie/480-2700Nm",
-		"longitud": "108-1/2",
-		"peso": "48.75 Lbs",
-		"tipo": "Ratchet",
-		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZzf48jF8dotVUqArnBr2HlpYbsMdw8Byq3Nf-4duM8Jdns4BuumI3808luDtZNJKdOk&usqp=CAU"
-	}
-	,
 	{
 		"nombre": "Torquimetros de reloj Encastre 1/4",
 		"encastre": "1/4",

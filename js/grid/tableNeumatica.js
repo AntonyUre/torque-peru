@@ -9,14 +9,13 @@ columnDefs = [
 
 // specify the data
 rowData = [
-
 	{
-		'Art N°': '615 180 0140',
-		Modelo: 'CP6641',
-		Encastre: '1"',
-		Velocidad: '10 RPM',
-		'Rango de Torque': '737-3024 Lbs.pie / 1000-4100 N.m',
-		'Peso': '11.4 Kg',
+		'Art N°': '615 180 0120',
+		Modelo: 'CP6613',
+		Encastre: '3/4"',
+		Velocidad: '20 RPM',
+		'Rango de Torque': '236-960 Lbs.pie / 320-1300 N.m',
+		'Peso': '4.4 Kg',
 	},
 	{
 		'Art N°': '615 180 0130',
@@ -27,13 +26,13 @@ rowData = [
 		'Peso': '5.7 Kg',
 	},
 	{
-		'Art N°': '615 180 0120',
-		Modelo: 'CP6613',
-		Encastre: '3/4"',
-		Velocidad: '20 RPM',
-		'Rango de Torque': '236-960 Lbs.pie / 320-1300 N.m',
-		'Peso': '4.4 Kg',
-	}
+		'Art N°': '615 180 0140',
+		Modelo: 'CP6641',
+		Encastre: '1"',
+		Velocidad: '10 RPM',
+		'Rango de Torque': '737-3024 Lbs.pie / 1000-4100 N.m',
+		'Peso': '11.4 Kg',
+	},
 ];
 
 // let the grid know which columns and what data to use
