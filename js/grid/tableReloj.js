@@ -13,30 +13,6 @@ let columnDefs = [
 // specify the data
 let rowData = [
 	{
-		Encastre: '3/4"',
-		// Tipo: 'RATCHET',
-		Modelo: '6472',
-		Capacidad: '0-600 Lbs.pie / 0-800 N.m',
-		Longitud: '46.5"',
-		Peso: '4.2 Kg',
-	},
-	{
-		Encastre: '1"',
-		// Tipo: 'RATCHET',
-		Modelo: '8471',
-		Capacidad: '0-1000 Lbs.pie / 0-1400 N.m',
-		Longitud: '74"',
-		Peso: '8.4 Kg',
-	},
-	{
-		Encastre: '1"',
-		// Tipo: 'RATCHET',
-		Modelo: '8472',
-		Capacidad: '0-2000 Lbs.pie / 0-2800 N.m',
-		Longitud: '122"',
-		Peso: '20.1 Kg',
-	},
-	{
 		Encastre: '1/4"',
 		// Tipo: 'RATCHET',
 		Modelo: '2471',
@@ -107,7 +83,31 @@ let rowData = [
 		Capacidad: '0-1000 Lbs.pie / 0-1400 N.m',
 		Longitud: '74"',
 		Peso: '8.4 Kg',
-	},	
+	},
+	{
+		Encastre: '3/4"',
+		// Tipo: 'RATCHET',
+		Modelo: '6472',
+		Capacidad: '0-600 Lbs.pie / 0-800 N.m',
+		Longitud: '46.5"',
+		Peso: '4.2 Kg',
+	},
+	{
+		Encastre: '1"',
+		// Tipo: 'RATCHET',
+		Modelo: '8471',
+		Capacidad: '0-1000 Lbs.pie / 0-1400 N.m',
+		Longitud: '74"',
+		Peso: '8.4 Kg',
+	},
+	{
+		Encastre: '1"',
+		// Tipo: 'RATCHET',
+		Modelo: '8472',
+		Capacidad: '0-2000 Lbs.pie / 0-2800 N.m',
+		Longitud: '122"',
+		Peso: '20.1 Kg',
+	},
 	// {
 	// 	Encastre: '1/4"',
 	// 	// Tipo: 'RATCHET',
