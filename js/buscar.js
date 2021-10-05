@@ -126,6 +126,7 @@ let arrayHerramientas = [
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
+		tag: 'top',
 	},
 	{
 		id: 10,
@@ -1117,54 +1118,54 @@ btnTodo.addEventListener('click', () => {
 	});
 });
 
-btnTop.addEventListener('click', () => {
-	containerList.innerHTML = '';
-	top.forEach((item) => {
-		if (item.encastreEntrada && item.encastreSalida) {
-			containerList.innerHTML += `
-		<a href="${item.url}"  class="list-items__container-item" id="">
-			<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
-			<h3>${item.nombre}</h3>
-			<p>${item.modelo}</p>
-			<div class="list-items__content" id="list-items__content">
-				<p><b>Encastre entrada:</b>  ${item.encastreEntrada}</p>
-				<p><b>Encastre salida:</b>  ${item.encastreSalida}</p>
-				<p><b>Capacidad:</b>  ${item.capacidad}</p>
-				<p><b>Peso:</b> ${item.peso}</p>
-			</div>
-		</a>`;
-		}
-		if (item.longitud !== undefined) {
-			containerList.innerHTML += `
-			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
-				<h3>${item.nombre}</h3>
-				<p>${item.modelo}</p>
-				<div class="list-items__content" id="list-items__content">
-					<p><b>Tipo:</b>  ${item.tipo}</p>
-					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
-					<p><b>Longitud:</b> ${item.longitud}</p>
-					<p><b>Peso:</b> ${item.peso}</p>
-				</div>
-			</a>
-			`;
-		}
-		if (item.artN) {
-			containerList.innerHTML += `
-			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
-				<h3>${item.nombre}</h3>
-				<p>${item.modelo}</p>
-				<div class="list-items__content" id="list-items__content">
-					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
-					<p><b>Art N°:</b> ${item.artN}</p>
-					<p><b>Peso:</b> ${item.peso}</p>
-				</div>
-			</a>
-			`;
-		}
-	});
-});
+// btnTop.addEventListener('click', () => {
+// 	containerList.innerHTML = '';
+// 	top.forEach((item) => {
+// 		if (item.encastreEntrada && item.encastreSalida) {
+// 			containerList.innerHTML += `
+// 		<a href="${item.url}"  class="list-items__container-item" id="">
+// 			<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
+// 			<h3>${item.nombre}</h3>
+// 			<p>${item.modelo}</p>
+// 			<div class="list-items__content" id="list-items__content">
+// 				<p><b>Encastre entrada:</b>  ${item.encastreEntrada}</p>
+// 				<p><b>Encastre salida:</b>  ${item.encastreSalida}</p>
+// 				<p><b>Capacidad:</b>  ${item.capacidad}</p>
+// 				<p><b>Peso:</b> ${item.peso}</p>
+// 			</div>
+// 		</a>`;
+// 		}
+// 		if (item.longitud !== undefined) {
+// 			containerList.innerHTML += `
+// 			<a href="${item.url}"  class="list-items__container-item" id="">
+// 				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
+// 				<h3>${item.nombre}</h3>
+// 				<p>${item.modelo}</p>
+// 				<div class="list-items__content" id="list-items__content">
+// 					<p><b>Tipo:</b>  ${item.tipo}</p>
+// 					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+// 					<p><b>Longitud:</b> ${item.longitud}</p>
+// 					<p><b>Peso:</b> ${item.peso}</p>
+// 				</div>
+// 			</a>
+// 			`;
+// 		}
+// 		if (item.artN) {
+// 			containerList.innerHTML += `
+// 			<a href="${item.url}"  class="list-items__container-item" id="">
+// 				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
+// 				<h3>${item.nombre}</h3>
+// 				<p>${item.modelo}</p>
+// 				<div class="list-items__content" id="list-items__content">
+// 					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+// 					<p><b>Art N°:</b> ${item.artN}</p>
+// 					<p><b>Peso:</b> ${item.peso}</p>
+// 				</div>
+// 			</a>
+// 			`;
+// 		}
+// 	});
+// });
 
 rangeInput.addEventListener('mouseup', function () {
 	containerList.innerHTML = '';
