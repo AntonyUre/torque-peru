@@ -51,5 +51,3 @@ function mostrarBanner() {
 
 	// document.getElementsByTagName("body").innerHTML = `<script>alert("hola mundo")<script>`;
 }
-
-// -------------------------------------------
