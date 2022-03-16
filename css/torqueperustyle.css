@@ -4373,7 +4373,33 @@ ul.slider li:target {
 		width: 100%;
 	}
 }
-
+/* Burbuja de promocion */
+.burbuja{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	bottom: 110px;
+	right: 20px;
+	border: none;
+	color: #fff;
+	background: #000;
+	outline: none;
+	transition: 0.3s;
+	text-align: center;
+	line-height: 45px;
+	transition: 0.3s;
+	z-index: 999;
+}
+@media (max-width: 500px) {
+	.burbuja {
+		width: 60px;
+		height: 60px;
+		/* line-height: 10px; */
+		bottom: 100px;
+		right: 17px;
+	}
+}
 /*whatapp*/
 .whatsapp {
 	position: fixed;
@@ -4413,7 +4439,6 @@ ul.slider li:target {
 }
 
 /*menu absolute*/
-
 @media (max-width: 767px) {
 	.menu-absolute {
 		position: absolute;
@@ -4438,3 +4463,4 @@ ul.slider li:target {
 .slider-donwload {
 	display: flex;
 }
+

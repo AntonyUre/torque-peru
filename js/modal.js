@@ -28,3 +28,17 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+
+
+function mostrarBanner() { 
+  let body = document.querySelector("body");
+  // alert("hola")
+  const scriptHTML = `<script>alert("Error")</script>`;
+  body.innerHTML += scriptHTML;
+  // body.innerHTML += `<script>alert("hola mundo")</script>`;
+
+  // document.getElementsByTagName("body").innerHTML = `<script>alert("hola mundo")<script>`;
+}
+
+// -------------------------------------------
