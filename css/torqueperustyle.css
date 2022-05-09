@@ -4429,7 +4429,24 @@ ul.slider li:target {
 	text-align: center;
 	line-height: 45px;
 	transition: 0.3s;
-	z-index: 999;
+	z-index: 999;	animation-name: animacion1;
+  animation-duration: 2s;
+	animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animacion1 {
+  /* THIS CSS IS FOR WHATSAPP BTN */
+from{
+    color: "black";
+    /* margin-top: 0px; */
+		bottom: 15px;
+  }
+to{
+    color: "black";
+    /* margin-top: 30px; */
+		bottom: 40px;
+  }
 }
 .whatsapp svg {
 	transition: 0.3s;
