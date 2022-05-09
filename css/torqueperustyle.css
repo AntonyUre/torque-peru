@@ -222,7 +222,7 @@ a:hover,
 .btn:hover,
 button:focus,
 button:hover {
-	color: #ccc !important;
+	/* color: #ccc !important; */
 	outline: none;
 	text-decoration: none;
 	transition: all 300ms linear 0s;
@@ -4215,6 +4215,7 @@ ul.slider li:target {
 	width: 50%;
 	margin: 0 auto;
 }
+
 .slider2 {
 	display: none;
 }
@@ -4373,13 +4374,14 @@ ul.slider li:target {
 		width: 100%;
 	}
 }
+
 /* Burbuja de promocion */
 .burbuja{
 	position: fixed;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	bottom: 110px;
+	bottom: 115px;
 	right: 20px;
 	border: none;
 	color: #fff;
@@ -4391,11 +4393,22 @@ ul.slider li:target {
 	transition: 0.3s;
 	z-index: 999;
 }
+.burbuja{
+	animation: heart-beat 1s linear infinite alternate;
+}
+@keyframes heart-beat {
+	0% {
+			transform: scale(1.4);
+	}
+	100% {
+			transform: scale(1);
+	}
+}
+
 @media (max-width: 500px) {
 	.burbuja {
 		width: 60px;
 		height: 60px;
-		/* line-height: 10px; */
 		bottom: 100px;
 		right: 17px;
 	}
