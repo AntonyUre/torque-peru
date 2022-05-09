@@ -4385,7 +4385,7 @@ ul.slider li:target {
 	right: 20px;
 	border: none;
 	color: #fff;
-	/* background: #000; */
+	background: #0000;
 	outline: none;
 	transition: 0.3s;
 	text-align: center;
