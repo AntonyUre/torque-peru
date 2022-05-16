@@ -30,7 +30,7 @@
 }
 
 #btn_cerrar {
-	animation: modal 2s 1s forwards;
+	animation: modal 2s 1s forwards; 
 	background: red;
 	color: #fff;
 	cursor: pointer;
